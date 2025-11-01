@@ -32,21 +32,21 @@ import '../componant/style/product.css';
 
 // -- Sample product list (id's fixed & unique)
 const PRODUCTS = [
-  { id: 1, name: 'AMG Sport Alloy Wheel', price: 1200, image: 'https://i.pinimg.com/1200x/56/f1/d9/56f1d9d81d5d6fec123a89b259773a77.jpg', category: 'Wheels' },
-  { id: 2, name: 'AMG Carbon Steering Wheel', price: 899, image: 'https://i.pinimg.com/736x/77/ce/a6/77cea6563976f3ebb82066b16492c9a7.jpg', category: 'Interior' },
+  { id: 1, name: 'AMG Sport Alloy Wheel', price: 250, image: 'https://i.pinimg.com/1200x/56/f1/d9/56f1d9d81d5d6fec123a89b259773a77.jpg', category: 'Wheels' },
+  { id: 2, name: 'AMG Carbon Steering Wheel', price: 420, image: 'https://i.pinimg.com/736x/77/ce/a6/77cea6563976f3ebb82066b16492c9a7.jpg', category: 'Interior' },
   { id: 3, name: 'AMG Carbon Spoiler', price: 1097, image: 'https://i.pinimg.com/1200x/b0/2e/5c/b02e5c2d92ae7d59c1851f5b7df76be3.jpg', category: 'Exterior' },
-  { id: 4, name: 'Mercedes-AMG Pedals', price: 659, image: 'https://i.pinimg.com/1200x/b4/0e/d1/b40ed121cbda92f4e4a4574e45774eda.jpg', category: 'Interior' },
-  { id: 5, name: 'AMG Sport Bumper Diffuser E63', price: 1450, image: 'https://i.pinimg.com/736x/4f/26/f1/4f26f19c25daaf96d252891d6615e4a8.jpg', category: 'Exterior' },
+  { id: 4, name: 'Mercedes-AMG Pedals', price: 619, image: 'https://i.pinimg.com/1200x/b4/0e/d1/b40ed121cbda92f4e4a4574e45774eda.jpg', category: 'Interior' },
+  { id: 5, name: 'AMG Sport Bumper Diffuser E63', price: 450, image: 'https://i.pinimg.com/736x/4f/26/f1/4f26f19c25daaf96d252891d6615e4a8.jpg', category: 'Exterior' },
   { id: 6, name: 'AMG Light Kit', price: 2499, image: 'https://i.pinimg.com/736x/5a/d6/0f/5ad60feae884e7d09eef36e70c7de38f.jpg', category: 'Lighting' },
-  { id: 7, name: 'Interior Hidden Lighting', price: 559, image: 'https://i.pinimg.com/1200x/79/f7/bd/79f7bd449c8c582c10a1ca54239ffd5a.jpg', category: 'Lighting' },
-  { id: 8, name: 'AMG Light Logo', price: 1499, image: 'https://i.pinimg.com/1200x/37/44/d3/3744d357ec94b1552f45f81b44153fae.jpg', category: 'Exterior' },
-  { id: 9, name: 'AMG GT Body Kit', price: 8699, image: 'https://i.pinimg.com/736x/c6/6b/6c/c66b6c9c903b0bb6d10a3d54059014e4.jpg', category: 'Exterior' },
-  { id: 10, name: 'Mercedes-AMG Watch for S-Class', price: 2000, image: 'https://i.pinimg.com/1200x/43/47/1d/43471d73e6087265e8e233db2525939b.jpg', category: 'Lifestyle' },
-  { id: 11, name: 'AMG E63S Logo Black Edition', price: 799, image: 'https://i.pinimg.com/1200x/c6/9f/0f/c69f0ff97c022e82e067ab4f35035eef.jpg', category: 'Badges' },
+  { id: 7, name: 'Interior Hidden Lighting', price: 529, image: 'https://i.pinimg.com/1200x/79/f7/bd/79f7bd449c8c582c10a1ca54239ffd5a.jpg', category: 'Lighting' },
+  { id: 8, name: 'AMG Light Logo', price: 299, image: 'https://i.pinimg.com/1200x/37/44/d3/3744d357ec94b1552f45f81b44153fae.jpg', category: 'Exterior' },
+  { id: 9, name: 'AMG GT Body Kit', price: 869, image: 'https://i.pinimg.com/736x/c6/6b/6c/c66b6c9c903b0bb6d10a3d54059014e4.jpg', category: 'Exterior' },
+  { id: 10, name: 'Mercedes-AMG Watch for S-Class', price: 200, image: 'https://i.pinimg.com/1200x/43/47/1d/43471d73e6087265e8e233db2525939b.jpg', category: 'Lifestyle' },
+  { id: 11, name: 'AMG E63S Logo Black Edition', price: 769, image: 'https://i.pinimg.com/1200x/c6/9f/0f/c69f0ff97c022e82e067ab4f35035eef.jpg', category: 'Badges' },
   { id: 12, name: 'AMG Sport Brake Calipers', price: 299, image: 'https://i.pinimg.com/1200x/27/b4/57/27b457f9a8a34cd4eb508c27e7dfa942.jpg', category: 'Brakes' },
   { id: 13, name: 'Perfume for Mercedes', price: 649, image: 'https://i.pinimg.com/1200x/e0/9c/d3/e09cd382d9ee2cd10cd7bd6be9cddeb4.jpg', category: 'Lifestyle' },
-  { id: 14, name: 'Mercedes Medal', price: 649, image: 'https://i.pinimg.com/736x/fa/1f/0c/fa1f0cc769a584947615c068587b0eb5.jpg', category: 'Lifestyle' },
-  { id: 15, name: 'Mercedes Glasses', price: 649, image: 'https://i.pinimg.com/736x/76/41/3a/76413aa8acc25e4facecbf171028b040.jpg', category: 'Lifestyle' },
+  { id: 14, name: 'Mercedes Medal', price: 156, image: 'https://i.pinimg.com/736x/fa/1f/0c/fa1f0cc769a584947615c068587b0eb5.jpg', category: 'Lifestyle' },
+  { id: 15, name: 'Mercedes Glasses', price: 444, image: 'https://i.pinimg.com/736x/76/41/3a/76413aa8acc25e4facecbf171028b040.jpg', category: 'Lifestyle' },
 ];
 
 export default function ProductsPage() {
